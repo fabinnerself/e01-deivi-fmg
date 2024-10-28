@@ -87,9 +87,11 @@ readme.md
         └── phrases.json
 ```
 
-Bajar el proyecto del repositorio: https://github.com/fabinnerself/e01-deivi-fmg.git
+Bajar el proyecto del repositorio:
 
-correr:
+git init https://github.com/fabinnerself/e01-deivi-fmg.git
+
+luego correr:
 
 cd e01-deivi-fmg
 
