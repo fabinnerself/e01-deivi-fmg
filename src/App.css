@@ -1,0 +1,71 @@
+#root{
+    min-height: 100vh;
+    font-family: "Baloo 2", sans-serif;
+}
+
+.wrapper {
+    min-height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    min-width: 450px;    
+    display: flex;
+    flex-direction: column;
+    gap: .25em;
+    padding: 2em 0;
+}
+
+.heading{
+    color: #fff;
+    text-align: center;
+    font-size: 2.5rem;
+    text-shadow: 5px 5px 0 #00000050;
+
+}
+
+.card{
+    width: 100%;    
+    aspect-ratio: 16 / 10;
+    background-image: url('./assets/img/rectangle.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+.card__body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 550px;
+    height: 100%;
+    padding: 0 2em;
+}
+
+.btn{
+    border: 2px solid rgb(255 255 255/90%);
+    width: fit-content;
+    margin: 0 auto;
+    backdrop-filter: brightness(1.5) blur(5px);
+}
+
+blockquote {                        
+    font-size: x-large;
+    font-style: italic;            
+  }
+  
+blockquote::after {            
+    content: "”"; 
+    font-size: 9em;
+    color: orangered;
+     position: absolute; 
+    right: 850px;
+    bottom: 250px;
+}
