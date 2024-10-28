@@ -89,7 +89,7 @@ readme.md
 
 Bajar el proyecto del repositorio:
 
-git init https://github.com/fabinnerself/e01-deivi-fmg.git
+git clone https://github.com/fabinnerself/e01-deivi-fmg.git
 
 luego correr:
 
