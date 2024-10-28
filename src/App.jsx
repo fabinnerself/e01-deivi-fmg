@@ -31,15 +31,10 @@ function App() {
           <Button  onClick={getRandomPhrase} />
           <div className='card'>          
             <div className='card__body'>
-               <Phrase phrase={currentPhrase}/>
-               
-            </div>                      
-            
+               <Phrase phrase={currentPhrase}/>               
+            </div> 
           </div>
-          
-           
         </div>
-        
        </div>
     </>
   )

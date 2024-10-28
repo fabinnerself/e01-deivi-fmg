@@ -2,12 +2,12 @@ import React from 'react'
 
 function Phrase({ phrase }) {
   return (
-    <div>{phrase? (<>
+    <div  >{phrase? (<>
             <div>
-            <q className='phrase'>{phrase.phrase}</q> <blockquote></blockquote>  
-            </div>
-            <div>
-            <cite className='author'>- <b> {phrase.author} </b></cite>             
+            <blockquote><q className='phrase'>{phrase.phrase}</q> </blockquote>  
+            <br/>
+              <p>
+             <cite className='author sourceBox'> - Fuente: <b>{phrase.author} </b></cite> </p>            
             </div>
             </>
     ): (
