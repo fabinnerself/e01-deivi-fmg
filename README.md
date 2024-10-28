@@ -16,7 +16,7 @@ Una aplicación simple y divertida construida con ReactJS y Vite. Permite genera
 
 - **Vite:**  Herramienta de construcción de frontend rápida y basada en ES modules. 
  
-Puedes visitar la plataforma en línea en ****
+Puedes visitar la plataforma en línea en [e01-deivi-fmg.vercel.app](https://e01-deivi-fmg.vercel.app/)
 
 ## Requisitos del Sistema
 
@@ -26,9 +26,9 @@ Puedes visitar la plataforma en línea en ****
 
 - **npm/npx:** Versión 10.8.4 o superior 
 
-- **Vite::** version o superior 
+- **Vite::** version 5.4 o superior 
 
-- **ReactJs:** vesion o superior 
+- **ReactJs:** vesion 18.3 o superior 
     
 ## Sistemas Alternativos Probados
 El proyecto también ha sido probado en el siguiente entorno alternativo:
@@ -39,12 +39,13 @@ El proyecto también ha sido probado en el siguiente entorno alternativo:
 
 - **npm/npx:** Versión 10.8.4 o superior 
 
-- **Vite:** version o superior 
+- **Vite:** version 5.4 o superior 
 
-- **ReactJs:** vesion o superior 
+- **ReactJs:** vesion 18.3 o superior 
 
 ## Imagenes
 
+Pantalla principal ![main](brucelee.png)
 
 ## Comandos Útiles
 
